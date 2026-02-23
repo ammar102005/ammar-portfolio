@@ -1,4 +1,3 @@
-/* الصورة الشخصية */
 .profile-pic {
     width: 150px;              /* حجم الصورة */
     height: 150px;             /* ارتفاع الصورة */
@@ -6,7 +5,8 @@
     border: 3px solid #00adb5; /* إطار أزرق */
     object-fit: cover;         /* يحافظ على تناسب الصورة */
     animation: float 3s ease-in-out infinite; /* حركة Float */
-    margin-bottom: 15px;       /* مسافة تحت الصورة */
+    display: block;
+    margin: 0 auto 15px auto;   /* في المنتصف + مسافة تحت */
 }
 
 /* Float Animation */
@@ -89,5 +89,6 @@ section.show {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 
